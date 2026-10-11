@@ -1,28 +1,28 @@
 class Baton < Formula
   desc "One terminal for all your coding agents, working as a team"
   homepage "https://github.com/k6w/baton"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/k6w/baton/releases/download/v0.1.0/baton-darwin-arm64.tar.gz"
-      sha256 "74c3da31110b602fd8fdca997dd58cb074bec2aa30a0b69d36cc5fe118fc3fd4"
+      url "https://github.com/k6w/baton/releases/download/v0.2.0/baton-darwin-arm64.tar.gz"
+      sha256 "2dfb4cc13a1e6b7609d69fa8c29bd4f86d6de09bfb4c541705ecb35b10c56191"
     end
     on_intel do
-      url "https://github.com/k6w/baton/releases/download/v0.1.0/baton-darwin-x64.tar.gz"
-      sha256 "c3f5401e4c3fba96880ec8bbe9c2601361402038b79eb1ff50c318843046575a"
+      url "https://github.com/k6w/baton/releases/download/v0.2.0/baton-darwin-x64.tar.gz"
+      sha256 "354d9b541dea93efd9b95289980c105d9bbf91e1a6f8a593848f5f5293cb3626"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/k6w/baton/releases/download/v0.1.0/baton-linux-arm64.tar.gz"
-      sha256 "4c57a45f0368ec52d6fe1c51ceb32b907ad28dea436fba7f84a8013f16d12941"
+      url "https://github.com/k6w/baton/releases/download/v0.2.0/baton-linux-arm64.tar.gz"
+      sha256 "cd6d478bffb822b87ee8bd8281787431fe471de0cd52cb175e1d600429edd796"
     end
     on_intel do
-      url "https://github.com/k6w/baton/releases/download/v0.1.0/baton-linux-x64.tar.gz"
-      sha256 "5f38b4ebe239f895b55ab3eddf1e9a7d40b95a666dca86b44438df45a42f5e29"
+      url "https://github.com/k6w/baton/releases/download/v0.2.0/baton-linux-x64.tar.gz"
+      sha256 "f0aa4079f5c5052071598a26b3a5f1ddace251af961b7549797501b09430af78"
     end
   end
 
